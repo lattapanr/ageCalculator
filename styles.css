@@ -1,0 +1,203 @@
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../assets/fonts/proximanova_regular.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+  font-family: "Proxima Nova";
+}
+
+/* Typography */
+
+h1,
+h2,
+h3,
+p,
+th,
+td {
+  margin: 0;
+}
+
+h1,
+h3,
+label,
+.calculate-btn {
+  font-family: "Big Shoulders Stencil Text", sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 3.25rem;
+}
+
+.top-section p,
+nav a {
+  font-size: 0.75rem;
+}
+
+.logo {
+  font-family: Arial, Helvetica, sans-serif;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  position: absolute;
+  top: 60px;
+  font-size: 8rem;
+  font-weight: bold;
+  line-height: 100px;
+  color: #363d7b83;
+  z-index: 0;
+}
+
+label {
+  color: #111f5a;
+  font-size: 0.95rem;
+  font-weight: bold;
+}
+
+h3 {
+  color: #7c1717;
+  font-size: 0.95rem;
+}
+
+.top-section p,
+h1,
+.calculator {
+  z-index: 1;
+}
+
+h1,
+.top-section p {
+  margin: 0 1.25rem;
+}
+
+nav,
+footer {
+  background-color: #7c1717;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px 15px;
+}
+
+nav img {
+  width: 60px;
+  height: 36px;
+}
+
+nav a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 4px 6px;
+}
+
+nav a:hover {
+  background-color: #631111;
+}
+
+footer {
+  padding-top: 1em;
+}
+
+footer p {
+  color: #fff;
+  font-size: 0.5rem;
+  padding-bottom: 1.75em;
+}
+
+.top-section img {
+  width: 100%;
+  display: none;
+}
+
+.top-section {
+  color: #fff;
+  background-color: #111f5a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.calculator {
+  color: #000;
+  background-color: #fff;
+  border: 3px solid #c9960f;
+  padding: 0 0.25em;
+  margin: 50px 0;
+  border-radius: 20px;
+  height: 250px;
+  width: 200px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1em;
+}
+
+input[type="date"] {
+  color: #111f5a;
+  text-transform: uppercase;
+  font-size: 0.65rem;
+  border: 1px solid #7c1717;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 1em;
+  padding: 0.25em 0;
+}
+
+label {
+  align-self: flex-start;
+}
+
+.calculate-btn {
+  text-transform: uppercase;
+  margin: 0.75em 0;
+  background-color: #c9960f;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 0.25em 0.35em;
+}
+
+.result {
+  margin-bottom: 1em;
+}
+
+.result h3 {
+  margin-bottom: 1em;
+}
+
+.bottom-section {
+  display: none;
+}
+
+.age-group-rules {
+  font-size: 0.75rem;
+  width: 80%;
+}
+
+footer {
+  width: 100%;
+}
+
+footer p {
+  text-align: center;
+}
+
+/* #111F5A
+#7C1717
+#fff */

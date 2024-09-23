@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <img src="./assets/GBAC-logo.jpg" alt="GBAC official logo" />
+      <a
+        class="home-page"
+        href="https://www.gbacsports.com/copy-of-gbac-all-star-game-1"
+        >Go back to GBAC</a
+      >
+    </nav>
+    <section><p class="logo">GBAC</p></section>
+    <section class="top-section">
+      <h1>Age Group Calculator</h1>
+      <p>
+        * All ages are determined by an August 1st - July 31st range. Swimming
+        Age Groups may vary due to swimming meet software i.e. Meet Manager.
+      </p>
+      <img
+        src="./assets/girl-football.png"
+        alt="graphic of a girl kicking a football"
+      />
+
+      <section class="calculator" id="calculator">
+        <form>
+          <label for="birthday">Date of Birth:</label>
+          <input type="date" id="birthday" name="birthday" required />
+          <label for="default-date">Age at the Date of:</label>
+          <input
+            type="date"
+            value="2024-08-01"
+            id="default-date"
+            name="default-date"
+          />
+          <button class="calculate-btn" id="calculate-btn">Calculate</button>
+        </form>
+
+        <div class="result">
+          <h3>Result:</h3>
+          <p id="result-text">
+            Please select the Date of Birth to see the eligible Age Group.
+          </p>
+        </div>
+      </section>
+    </section>
+    <section class="bottom-section">
+      <h2>GBAC Age Groups 2024-2025</h2>
+      <table class="age-group-rules">
+        <thead>
+          <tr>
+            <th>Section</th>
+            <th>Division</th>
+            <th>Birth Date Ranges 2024-2025</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="3">Primary</td>
+            <td>U7</td>
+            <td>
+              Students are eligible if they have not reached the age of 7 years
+              before August 1st of the current school year (August 1st 2024).<br />
+              Students are eligible if they turn 7 years old on or after August
+              1st of the current school year (August 1st 2024).
+            </td>
+          </tr>
+          <tr>
+            <td>U9</td>
+            <td>
+              Students are eligible if they have not reached the age of 9 years
+              before August 1st of the current school year (August 1st 2024).<br />
+              Students are eligible if they turn 9 years old on or after August
+              1st of the current school year (August 1st 2024).
+            </td>
+          </tr>
+          <tr>
+            <td>U11</td>
+            <td>
+              Students are eligible if they have not reached the age of 11 years
+              before August 1st of the current school year (August 1st 2024).<br />
+              Students are eligible if they turn 11 years old on or after August
+              1st of the current school year (August 1st 2024).
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="3">Secondary</td>
+            <td>U13</td>
+            <td>
+              Students are eligible if they have not reached the age of 13 years
+              before August 1st of the current school year (August 1st 2024).<br />
+              Students are eligible if they turn 13 years old on or after August
+              1st of the current school year (August 1st 2024).
+            </td>
+          </tr>
+          <tr>
+            <td>U15</td>
+            <td>
+              Students are eligible if they have not reached the age of 15 years
+              before August 1st of the current school year (August 1st 2024).<br />
+              Students are eligible if they turn 15 years old on or after August
+              1st of the current school year (August 1st 2024).
+            </td>
+          </tr>
+          <tr>
+            <td>U18</td>
+            <td>
+              Students are eligible if they have not reached the age of 19 years
+              before August 1st of the current school year (August 1st 2024).<br />
+              Students are eligible if they turn 19 years old on or after August
+              1st of the current school year (August 1st 2024).
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <footer>
+      <p>Greater Bangkok Athletics Conference | All Rights Reserved.</p>
+    </footer>
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
