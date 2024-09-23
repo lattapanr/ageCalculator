@@ -63,10 +63,6 @@ calculateBtn.addEventListener("click", (e) => {
   if (eligibility) {
     document.querySelector(
       "#result-text"
-    ).innerHTML = `The pupil is <strong><u>${eligibility}</u></strong>.`;
-  } else {
-    document.querySelector(
-      "#result-text"
-    ).textContent = `The student is ${eligibility}.`;
+    ).innerHTML = `The student is <strong><u>${eligibility}</u></strong>.`;
   }
 });
