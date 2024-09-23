@@ -1,5 +1,12 @@
 const calculateBtn = document.querySelector("#calculate-btn");
 
+function formatDate(date) {
+  let day = date.getDate().toString().padStart(2, "0");
+  let month = (date.getMonth() + 1).toString().padStart(2, "0");
+  let year = date.getFullYear();
+  return `${day}/${month}/${year}`;
+}
+
 calculateBtn.addEventListener("click", (e) => {
   e.preventDefault();
 
@@ -63,11 +70,12 @@ calculateBtn.addEventListener("click", (e) => {
     eligibility = "not eligible for any age group";
   }
 
+  const formattedDate = formatDate(endDate);
   // Display result
   if (eligibility) {
     document.querySelector(
       "#result-text"
-    ).innerHTML = `On 01/08/2024, the student's age is ${yearDifference} ${
+    ).innerHTML = `On ${formattedDate}, the student's age is ${yearDifference} ${
       yearDifference > 1 ? "years" : "year"
     }, ${monthDifference} ${
       monthDifference > 1 ? "months" : "month"
