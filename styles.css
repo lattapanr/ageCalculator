@@ -38,7 +38,7 @@ nav a {
   font-size: 0.75rem;
 }
 
-.logo {
+/* .logo {
   font-family: Arial, Helvetica, sans-serif;
   writing-mode: vertical-rl;
   text-orientation: upright;
@@ -49,7 +49,7 @@ nav a {
   line-height: 100px;
   color: #363d7b83;
   z-index: 0;
-}
+} */
 
 label {
   color: #111f5a;
