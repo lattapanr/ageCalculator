@@ -67,6 +67,6 @@ calculateBtn.addEventListener("click", (e) => {
   } else {
     document.querySelector(
       "#result-text"
-    ).textContent = `The pupil is ${eligibility}.`;
+    ).textContent = `The student is ${eligibility}.`;
   }
 });
