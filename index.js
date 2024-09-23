@@ -70,6 +70,6 @@ calculateBtn.addEventListener("click", (e) => {
   if (eligibility) {
     document.querySelector(
       "#result-text"
-    ).innerHTML = `The student is ${yearDifference} years, ${monthDifference} months, ${dayDifference} days old and is <strong><u>${eligibility}</u></strong>.`;
+    ).innerHTML = `On 01/08/2014, the student is ${yearDifference} years, ${monthDifference} months, ${dayDifference} days old and is <strong><u>${eligibility}</u></strong>.`;
   }
 });
