@@ -66,7 +66,7 @@ footer {
   align-items: center;
   box-sizing: border-box;
   padding: 10px 15px;
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -191,6 +191,11 @@ footer p {
     box-sizing: border-box;
   }
 
+  .nav-container img {
+    width: 75px;
+    height: 50px;
+  }
+
   .nav-container a {
     color: #000;
     border: 1px solid #000;
@@ -205,7 +210,7 @@ footer p {
   .top-section-content {
     flex-direction: row;
     justify-content: space-between;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
   }
 
@@ -234,10 +239,23 @@ footer p {
     width: 100%;
     padding: 2em 0;
   }
+  table,
+  th,
+  td,
+  th {
+    border: 1px solid #fff;
+  }
+
+  th,
+  tr,
+  td {
+    padding: 0.5em 0.75em;
+  }
 
   .age-group-rules {
-    max-width: 800px;
+    max-width: 900px;
     font-size: 0.75rem;
+    margin-top: 1em;
   }
 
   footer p {
