@@ -17,6 +17,14 @@ calculateBtn.addEventListener("click", (e) => {
   const startDate = new Date(birthDate);
   const endDate = new Date(defaultDate);
 
+  // Check if dates are valid
+  const resultText = document.querySelector("#result-text");
+  if (isNaN(startDate) || isNaN(endDate)) {
+    resultText.textContent =
+      "Date of birth needs to be selected to see the eligible Age Group.";
+    return;
+  }
+
   // Calculate the difference in years, months, and days
   let yearDifference = endDate.getFullYear() - startDate.getFullYear();
   let monthDifference = endDate.getMonth() - startDate.getMonth();
@@ -71,11 +79,10 @@ calculateBtn.addEventListener("click", (e) => {
   }
 
   const formattedDate = formatDate(endDate);
+
   // Display result
   if (eligibility) {
-    document.querySelector(
-      "#result-text"
-    ).innerHTML = `On ${formattedDate}, the student's age is ${yearDifference} ${
+    resultText.innerHTML = `On ${formattedDate}, the student's age is ${yearDifference} ${
       yearDifference > 1 ? "years" : "year"
     }, ${monthDifference} ${
       monthDifference > 1 ? "months" : "month"
