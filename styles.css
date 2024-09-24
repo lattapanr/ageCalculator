@@ -192,19 +192,21 @@ footer p {
   }
 
   .nav-container img {
-    width: 75px;
-    height: 50px;
+    width: 105px;
+    height: 65px;
   }
 
   .nav-container a {
     color: #000;
     border: 1px solid #000;
+    font-size: 0.90rem;
   }
 
   .nav-container a:hover,
   .nav-container a:active {
     box-shadow: inset;
-    background-color: #e4d9d9ce;
+    background-color: #f5f3f4;
+    border: 2px solid #000;
   }
 
   .top-section-content {
@@ -232,8 +234,8 @@ footer p {
 
   .calculator {
   padding: 0 2em;
-  height: 300px;
-  width: 230px;
+  height: 22em;
+  width: 13em;
 }
 
 .calculate-btn {
