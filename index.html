@@ -17,44 +17,52 @@
   </head>
   <body>
     <nav>
-      <img src="./assets/GBAC-logo.jpg" alt="GBAC official logo" />
-      <a class="home-page" href="https://www.gbacsports.com/"
-        >Go back to GBAC</a
-      >
+      <div class="nav-container">
+        <img src="./assets/GBAC-logo.jpg" alt="GBAC official logo" />
+        <a class="home-page" href="https://www.gbacsports.com/"
+          >Go back to GBAC</a
+        >
+      </div>
     </nav>
     <!-- <section><p class="logo">GBAC</p></section> -->
     <section class="top-section">
-      <h1>Age Group Calculator</h1>
-      <p>
-        * All ages are determined by an August 1st - July 31st range. Swimming
-        Age Groups may vary due to swimming meet software i.e. Meet Manager.
-      </p>
-      <img
-        src="./assets/girl-football.png"
-        alt="graphic of a girl kicking a football"
-      />
-
-      <section class="calculator" id="calculator">
-        <form>
-          <label for="birthday">Date of birth:</label>
-          <input type="date" id="birthday" name="birthday" required />
-          <label for="default-date">Age on the date of:</label>
-          <input
-            type="date"
-            value="2024-08-01"
-            id="default-date"
-            name="default-date"
-          />
-          <button class="calculate-btn" id="calculate-btn">Calculate</button>
-        </form>
-
-        <div class="result">
-          <h3>Result:</h3>
-          <p id="result-text">
-            Please select the date of birth to see the eligible Age Group.
+      <div class="top-section-content">
+        <div class="hero-text-container">
+          <h1>Age Group Calculator</h1>
+          <p>
+            * All ages are determined by an August 1st - July 31st range.
+            Swimming Age Groups may vary due to swimming meet software i.e. Meet
+            Manager.
           </p>
         </div>
-      </section>
+
+        <section class="calculator" id="calculator">
+          <form>
+            <label for="birthday">Date of birth:</label>
+            <input type="date" id="birthday" name="birthday" required />
+            <label for="default-date">Age on the date of:</label>
+            <input
+              type="date"
+              value="2024-08-01"
+              id="default-date"
+              name="default-date"
+            />
+            <button class="calculate-btn" id="calculate-btn">Calculate</button>
+          </form>
+
+          <div class="result">
+            <h3>Result:</h3>
+            <p id="result-text">
+              Please select the date of birth to see the eligible Age Group.
+            </p>
+          </div>
+        </section>
+
+        <img
+          src="./assets/graphic.png"
+          alt="silhouette of Michael Jordan throwing a basketball"
+        />
+      </div>
     </section>
     <section class="bottom-section">
       <h2>GBAC Age Groups 2024-2025</h2>
