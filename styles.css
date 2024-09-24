@@ -252,6 +252,10 @@ label, .result h3 {
 font-size: 1.1rem;
 }
 
+.result p {
+font-size: 0.9rem;
+}
+
 .bottom-section {
     display: flex;
     flex-direction: column;
