@@ -207,6 +207,7 @@ footer p {
     box-shadow: inset;
     background-color: #f5f3f4;
     border: 2px solid #000;
+    font-weight: bold;
   }
 
   .top-section-content {
