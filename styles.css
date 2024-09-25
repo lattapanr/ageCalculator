@@ -85,6 +85,7 @@ nav img {
 
 .nav-container a:hover {
   background-color: #631111;
+  cursor: pointer;
 }
 
 footer {
@@ -220,7 +221,7 @@ footer p {
   .top-section img {
     display: block;
     width: 90px;
-    padding-left: 100px;
+    /* padding-left: 140px; */
   }
 
   .hero-text-container {
